@@ -49,7 +49,10 @@ class InstagramBot:
         for pic in picList:
             driver.get(pic)
             time.sleep(1)
-            driver.find_element_by_xpath('//*[name()="svg"][@aria-label="Like"]').click()
+            try: 
+                driver.find_element_by_xpath('//*[name()="svg"][@aria-label="Like"][@width="24"]').click()
+            except selenium.common.exceptions.NoSuchElementException:
+                print("Picture already liked")
             time.sleep(1)
 
     def commentAllPicsOnPage(self, comment):
@@ -89,7 +92,10 @@ class InstagramBot:
         for pic in picList:
             driver.get(pic)
             time.sleep(1)
-            driver.find_element_by_xpath('//*[name()="svg"][@aria-label="Like"]').click()
+            try: 
+                driver.find_element_by_xpath('//*[name()="svg"][@aria-label="Like"][@width="24"]').click()
+            except selenium.common.exceptions.NoSuchElementException:
+                print("Picture already liked")
             time.sleep(2)
             driver.find_element_by_xpath("//section[@class='sH9wk  _JgwE ']").click()
             time.sleep(1)
