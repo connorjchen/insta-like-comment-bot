@@ -8,6 +8,6 @@ Instagram bot, that can like or comment on all pictures of a given page, created
 
 ### Demo
 
-<p float="left">
-  <img src="https://github.com/connorjchen/insta-like-comment-bot/blob/main/Assets/InstaBotDemo.gif" width="800" />
+<p align="center">
+  <img src="https://github.com/connorjchen/insta-like-comment-bot/blob/main/Assets/InstaBotDemo.gif" width="600" />
 </p>
