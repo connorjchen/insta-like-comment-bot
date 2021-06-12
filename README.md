@@ -1,6 +1,6 @@
 # Instagram Like & Comment Bot 
 
-<p align="center"><img src=https://github.com/connorjchen/insta-like-comment-bot/blob/main/Assets/instagram-logo-svg-vector-for-print.svg width=250 /></p>
+<p align="center"><img src=https://github.com/connorjchen/insta-like-comment-bot/blob/main/Assets/instagram-logo-svg-vector-for-print.svg width=250 /><img src=https://github.com/connorjchen/insta-like-comment-bot/blob/main/Assets/robot.png width=250 /></p>
 
 ### Description
 
