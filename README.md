@@ -4,7 +4,7 @@
 
 ### Description
 
-Hangman game, complete with graphics and audio cues, created solely by Connor Chen. The game was coded using Python with the help of Pygame. Furthermore, the .py files were converted to a working .exe using cx_freeze.
+Instagram bot, that can like or comment on all pictures of a given page, created solely by Connor Chen. The game was coded using Python and Selenium for web browser automation.
 
 ### Demo
 
